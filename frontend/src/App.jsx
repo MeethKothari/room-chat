@@ -4,7 +4,8 @@ import io from "socket.io-client";
 import Chat from './Chat';
 
 
-let url = 'http://localhost:8082'
+//let url = 'http://localhost:8082' // local 
+let url = "https://room-chat-ml6t.onrender.com"  // deployed  
 const socket = io.connect(url);
 
 
