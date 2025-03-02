@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:5173", "https://room-chat-one.vercel.app/"], // accept both local and vercel
+        origin: ["http://localhost:5173", "https://room-chat-one.vercel.app", "https://room-chat-ml6t.onrender.com" ],// accept both local and vercel
         methods: ["POST", "GET"]
     }
 });
